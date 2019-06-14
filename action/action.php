@@ -112,7 +112,7 @@ if (substr($checkout_card_number, 0, 1) == 4 && substr($checkout_card_number, 0,
  $data["customer"]["cpf"] = $doc;
  $data["customer"]["email"] = $email;
 
- $data["transaction_product"][1]["description"] = 'Formação Copy Pro';
+ $data["transaction_product"][1]["description"] = 'Nome Do Produto';
  $data["transaction_product"][1]["quantity"] = "1";
  $data["transaction"][1]["price_discount"] = intval($discount);
  $data["transaction_product"][1]["price_unit"] = $valor;
